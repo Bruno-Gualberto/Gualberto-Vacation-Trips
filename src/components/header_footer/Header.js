@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 import { AppBar, Toolbar, IconButton } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -13,7 +13,7 @@ const Header = () => {
     setDrawerOpen(value)
   }
 
-
+  
   return (
     <AppBar
       position="fixed"
