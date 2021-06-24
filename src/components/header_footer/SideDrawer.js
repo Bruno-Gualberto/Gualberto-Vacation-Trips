@@ -2,8 +2,8 @@ import React from 'react';
 
 import { Drawer, List, ListItem } from '@material-ui/core';;
 
-const SideDrawer = (props) => {
-  const links =  [
+const SideDrawer = (props) => 
+  const links = [
     {where: 'featured', value: 'To top'},
     {where: 'venueinfo', value: 'Venue INFO'},
     {where: 'highlights', value: 'Highlights'},
@@ -24,7 +24,7 @@ const SideDrawer = (props) => {
       onClose={() => props.onClose(false)}
     >
       <List component="nav">
-        {links.map(item => renderItem(item))}
+        {links.map((item) => renderItem(item))}
       </List>
     </Drawer>
   )
