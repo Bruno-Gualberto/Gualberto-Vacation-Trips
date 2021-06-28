@@ -23,7 +23,7 @@ const TimeUntil = () => {
 
   const getTimeUntil = useCallback((deadline) => {
     const time = Date.parse(deadline) - Date.parse(new Date());
-
+    
     if (time < 0) {
       console.log('The event has passed')
     } else {
@@ -43,7 +43,7 @@ const TimeUntil = () => {
 
   useEffect(() => {
     setInterval(() => getTimeUntil('Sep, 28, 2021, 12:10:00'), 1000)
-  },[])
+  },[getTimeUntil])
 
   return (
     <Slide left delay={1000}>

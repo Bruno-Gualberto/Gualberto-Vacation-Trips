@@ -2,7 +2,21 @@ import React from 'react';
 
 import { Drawer, List, ListItem } from '@material-ui/core';;
 
-const SideDrawer = (props) => {
+const SideDrawer = (props) => 
+  const links = [
+    {where: 'featured', value: 'To top'},
+    {where: 'venueinfo', value: 'Venue INFO'},
+    {where: 'highlights', value: 'Highlights'},
+    {where: 'prices', value: 'Prices'},
+    {where: 'location', value: 'Location'}
+  ]
+
+  const renderItem = (item) => (
+    <ListItem button onClick={() => alert(item.where)} key={item.where}>
+      {item.value}
+    </ListItem>
+  )
+
   return (
     <Drawer
       anchor= "right"
@@ -10,9 +24,7 @@ const SideDrawer = (props) => {
       onClose={() => props.onClose(false)}
     >
       <List component="nav">
-        <ListItem button onClick={() => alert('click')}>
-          Item name
-        </ListItem>
+        {links.map((item) => renderItem(item))}
       </List>
     </Drawer>
   )
