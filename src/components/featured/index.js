@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Carrousel from './Carrousel';
+import TimeUntil from './TimeUntil';
+
   const Featured = () => {
     return (
       <div className="featured_container">
@@ -10,6 +12,7 @@ import Carrousel from './Carrousel';
             Ariana Grande
           </div>
         </div>
+        <TimeUntil/>
       </div>
     )
   }
