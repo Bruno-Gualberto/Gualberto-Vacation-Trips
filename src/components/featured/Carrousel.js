@@ -14,6 +14,7 @@ const Carrousel = () => {
     dots: false,
     infinite: true,
     autoplay: true,
+    fade: true,
     autoplaySpeed: 5000,
     pauseOnHover: false,
     speed: 500
