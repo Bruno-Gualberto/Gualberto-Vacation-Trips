@@ -5,8 +5,8 @@ import { Drawer, List, ListItem } from '@material-ui/core';;
 const SideDrawer = (props) => {
   const links =  [
     {where: 'featured', value: 'To top'},
-    {where: 'venueinfo', value: 'Venue INFO'},
-    {where: 'highlights', value: 'Highlights'},
+    {where: 'tripinfo', value: 'Trip INFO'},
+    {where: 'aboutportoseguro', value: 'About Porto Seguro'},
     {where: 'prices', value: 'Prices'},
     {where: 'location', value: 'Location'}
   ]

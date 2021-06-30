@@ -275,8 +275,8 @@ footer .footer_copyright {
     font-size: 50px;
     font-weight: 400;
     display: block;
+    padding-left: 7px;
 }
-
 
 .discount_wrapper .discount_description h3 {
     font-size: 34px;

@@ -5,6 +5,7 @@ import Header from './components/header_footer/Header';
 import Footer from './components/header_footer/Footer';
 import Featured from './components/featured';
 import Info from './components/info';
+import About from './components/about';
 
 const App = () => {
   return (
@@ -17,7 +18,10 @@ const App = () => {
       <>
         <Info/>
       </>
-      <div style={{backgroundColor: 'blue', height: '800px'}}></div>
+
+      <> 
+        <About/>
+      </>
       <div style={{backgroundColor: 'yellow', height: '800px'}}></div>
       
       <Footer/>
