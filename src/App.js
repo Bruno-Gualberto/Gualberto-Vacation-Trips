@@ -22,7 +22,6 @@ const App = () => {
       <> 
         <About/>
       </>
-      <div style={{backgroundColor: 'yellow', height: '800px'}}></div>
       
       <Footer/>
     </div>
