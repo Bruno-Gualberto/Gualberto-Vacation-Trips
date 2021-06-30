@@ -30,9 +30,10 @@ const Header = () => {
     <AppBar
       position="fixed"
       style={{
-        backgroundColor: headerScroll ? "#2f2f2f" : "transparent",
+        backgroundColor: headerScroll ? "#082245" : "transparent",
         boxShadow: "none",
-        padding: "10px 0px"
+        padding: "10px 0px",
+        transition: "all .3s"
       }}
     >
       <Toolbar>

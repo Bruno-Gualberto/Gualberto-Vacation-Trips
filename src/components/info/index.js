@@ -6,7 +6,7 @@ import icon_location from '../../resources/images/icons/location.png';
 
 const Info = () => {
   return (
-    <div className="bck_black">
+    <div className="bck_naive_blue">
       <div className="center_wrapper">
         <div className="vn_wrapper">
 

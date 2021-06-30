@@ -31,6 +31,10 @@ body {
     background: #ffa800;
 }
 
+.bck_naive_blue {
+  background: rgb(29, 61, 150);
+}
+
 .iconImage {
     width: 20px;
     margin-right: 10px;
@@ -136,7 +140,7 @@ footer .footer_copyright {
 }
 
 .countdown_wrapper .countdown_top {
-    background: #ff4800;
+    background: #398a5d;
     font-size: 19px;
     padding: 10px;
     display: inline-block;
@@ -145,13 +149,13 @@ footer .footer_copyright {
 
 .countdown_wrapper .countdown_bottom {
     display: flex;
-    background: #d93d00;
+    background: #327c54;
     padding: 10px 20px;
 }
 
 .countdown_wrapper .countdown_time {
     font-size: 70px;
-    border-right: 1px solid #F44336;
+    border-right: 1px solid #398a5d;
     margin-right: 14px;
     padding-right: 49px;
 }
@@ -195,7 +199,7 @@ footer .footer_copyright {
 }
 
 .vn_item .vn_inner:hover {
-    background: #3e3e3e;
+    background: #082245;
 }
 
 .vn_item .vn_icon_square {
@@ -263,7 +267,7 @@ footer .footer_copyright {
 }
 
 .discount_wrapper .discount_porcentage span:nth-child(1) {
-    color: #ff4800;
+    color: #398a5d;
     font-size: 125px;
     font-weight: 400;
     display: block;
