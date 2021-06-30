@@ -46,7 +46,7 @@ const TimeUntil = () => {
   },[getTimeUntil])
 
   return (
-    <Slide left delay={1000}>
+    <Slide left delay={1000} triggerOnce>
       <div className="countdown_wrapper">
         <div className="countdown_top">
           Event starts in
