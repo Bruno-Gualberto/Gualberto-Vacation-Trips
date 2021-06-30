@@ -3,7 +3,8 @@ import './resources/styles.css';
 
 import Header from './components/header_footer/Header';
 import Footer from './components/header_footer/Footer';
-import Featured from './components/featured/index';
+import Featured from './components/featured';
+import Info from './components/info';
 
 const App = () => {
   return (
@@ -12,7 +13,10 @@ const App = () => {
       <>
         <Featured/>
       </>
-      <div style={{backgroundColor: 'green', height: '800px'}}></div>
+
+      <>
+        <Info/>
+      </>
       <div style={{backgroundColor: 'blue', height: '800px'}}></div>
       <div style={{backgroundColor: 'yellow', height: '800px'}}></div>
       

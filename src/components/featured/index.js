@@ -9,7 +9,7 @@ import TimeUntil from './TimeUntil';
         <Carrousel/>
         <div className="artist_name">
           <div className="wrapper">
-            Ariana Grande
+            Porto Seguro
           </div>
         </div>
         <TimeUntil/>
