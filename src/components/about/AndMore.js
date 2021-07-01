@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Fade, Slide } from 'react-awesome-reveal';
 
+import MyButton from '../reusable_components/MyButton';
+
 const AndMore = () => {
   const endNum = 100;
   const [startNum, setStartNum] = useState(0);
@@ -39,6 +41,17 @@ const AndMore = () => {
           <div className="discount_description">
             <h3>And more!</h3>
             <p>Arraial d'Ajuda is a district of Porto Seguro. The small village has an architectural style, variety, and refinement of its establishments that earned it the nickname "Brazil's most charming street". At the end of Mucugê Street, one has access to Mucugê Beach and Pitinga Beach. </p>
+            
+            <MyButton
+              text="see for yourself"
+              size="small"
+              link="https://www.tripadvisor.com/Tourism-g303270-Porto_Seguro_State_of_Bahia-Vacations.html"
+              style={{
+                background: '#398a5d',
+                color: '#ffffff'
+              }}
+            />
+
           </div>
         </Slide>
       </div>
