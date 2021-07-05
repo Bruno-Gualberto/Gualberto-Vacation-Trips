@@ -5,7 +5,7 @@ import AndMore from './AndMore';
 
 const About = () => {
   return (
-    <div className="highlight_wrapper">
+    <div className="about_wrapper">
       <Description/>
       <AndMore/>
     </div>

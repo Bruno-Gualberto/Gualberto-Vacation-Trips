@@ -6,24 +6,32 @@ const Attractions = () => {
   
   const attrState = {
     type: ['Quad Biking', 'Paragliding', 'Eco-Park'],
-    price: [150, 200, 100],
-    description: ['description 1', 'description 2', 'description 3'],
-    link: ['', '', ''],
+    price: [250, 350, 120],
+    description: [
+      'Experience a 25km ride along the coast of Porto Seguro riding a quad bike!',
+      'Fly for 15min/20min through the skies of Arraial d’Ajuda!', 
+      'Joy, adventure, fun and entertainment for you and the whole family in this water park!'
+    ],
+    link: [
+      'https://spark.adobe.com/page/i5yxCXeT8PAGv/',
+      'https://spark.adobe.com/page/i5yxCXeT8PAGv/',
+      'https://spark.adobe.com/page/i5yxCXeT8PAGv/'
+    ],
     delay: [500, 0, 500]
   }
 
   const renderItems = () => (
     attrState.type.map((item, i) => (
-      <Zoom key={i} className="pricing_item" delay={attrState.delay[i]} triggerOnce>
-        <div className="pricing_inner_wrapper">
-          <div className="pricing_title">
-            <span>{attrState.price[i]}R$</span>
+      <Zoom key={i} className="attr_item" delay={attrState.delay[i]} triggerOnce>
+        <div className="attr_inner_wrapper">
+          <div className="attr_title">
+            <span>R${attrState.price[i]}</span>
             <span>{attrState.type[i]}</span>
           </div>
-          <div className="pricing_description">
+          <div className="attr_description">
             {attrState.description[i]}
           </div>
-          <div className="pricing_buttons">
+          <div className="attr_buttons">
             <MyButton
               text="check it out"
               size="small"
@@ -40,9 +48,9 @@ const Attractions = () => {
 
   return (
     <div className="bck_naive_blue">
-      <div className="center_wrapper pricing_section">
+      <div className="center_wrapper attr_section">
         <h2>Attractions</h2>
-        <div className="pricing_wrapper">
+        <div className="attr_wrapper">
           {renderItems()}
         </div>
       </div>
