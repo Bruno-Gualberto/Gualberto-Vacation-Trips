@@ -7,6 +7,7 @@ import Featured from './components/featured';
 import Info from './components/info';
 import About from './components/about';
 import Attractions from './components/attractions';
+import Location from './components/location';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Info/>
       <About/>
       <Attractions/>
+      <Location/>
       <Footer/>
     </div>
   );
