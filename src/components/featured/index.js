@@ -7,7 +7,7 @@ import TimeUntil from './TimeUntil';
     return (
       <div className="featured_container">
         <Carrousel/>
-        <div className="artist_name">
+        <div className="place_name">
           <div className="wrapper">
             Porto Seguro
           </div>

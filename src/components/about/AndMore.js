@@ -23,7 +23,7 @@ const AndMore = () => {
 
   return (
     <div className="center_wrapper">
-      <div className="discount_wrapper">
+      <div className="andMore_wrapper">
         <Fade
           onVisibilityChange={(inView) => {
             if (inView) {
@@ -31,14 +31,14 @@ const AndMore = () => {
             }
           }}
         >
-          <div className="discount_porcentage">
+          <div className="andMore_porcentage">
             <span>{startNum}%</span>
             <span>FUN!</span>
           </div>
         </Fade>
 
         <Slide right triggerOnce>
-          <div className="discount_description">
+          <div className="andMore_description">
             <h3>And more!</h3>
             <p>Arraial d'Ajuda is a district of Porto Seguro. The small village has an architectural style, variety, and refinement of its establishments that earned it the nickname "Brazil's most charming street". At the end of Mucugê Street, one has access to Mucugê Beach and Pitinga Beach. </p>
             
