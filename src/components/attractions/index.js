@@ -14,7 +14,7 @@ const Attractions = () => {
 
   const renderItems = () => (
     attrState.type.map((item, i) => (
-      <Zoom key={i} className="pricing_item" delay={attrState.delay[i]}>
+      <Zoom key={i} className="pricing_item" delay={attrState.delay[i]} triggerOnce>
         <div className="pricing_inner_wrapper">
           <div className="pricing_title">
             <span>{attrState.price[i]}R$</span>
