@@ -44,7 +44,7 @@ const Info = () => {
                     }}
                     ></div>
                     <div className="vn_title">
-                      Event Location
+                      Where We Meet
                     </div>
                     <div className="vn_desc">
                       Rod. Hélio Smidt, Airport, Guarulhos <br/> SP, Brazil

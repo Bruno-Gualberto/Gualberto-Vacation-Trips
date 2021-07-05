@@ -7,7 +7,7 @@ const SideDrawer = (props) =>
     {where: 'featured', value: 'To top'},
     {where: 'tripinfo', value: 'Trip INFO'},
     {where: 'aboutportoseguro', value: 'About Porto Seguro'},
-    {where: 'prices', value: 'Prices'},
+    {where: 'attractions', value: 'Attractions'},
     {where: 'location', value: 'Location'}
   ]
 

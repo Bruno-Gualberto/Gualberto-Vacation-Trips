@@ -6,23 +6,16 @@ import Footer from './components/header_footer/Footer';
 import Featured from './components/featured';
 import Info from './components/info';
 import About from './components/about';
+import Attractions from './components/attractions';
 
 const App = () => {
   return (
-    <div className="App">
+   <div className="App">
       <Header/>
-      <>
-        <Featured/>
-      </>
-
-      <>
-        <Info/>
-      </>
-
-      <> 
-        <About/>
-      </>
-      
+      <Featured/>
+      <Info/>
+      <About/>
+      <Attractions/>
       <Footer/>
     </div>
   );
