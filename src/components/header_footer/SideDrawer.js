@@ -3,7 +3,8 @@ import { scroller } from 'react-scroll';
 
 import { Drawer, List, ListItem } from '@material-ui/core';;
 
-const SideDrawer = (props) => 
+const SideDrawer = (props) => {
+  
   const links = [
     {where: 'featured', value: 'To top'},
     {where: 'tripinfo', value: 'Trip INFO'},
