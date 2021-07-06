@@ -34,7 +34,7 @@ const Attractions = () => {
           <div className="attr_buttons">
             <MyButton
               text="check it out"
-              size="small"
+              size="big"
               link={attrState.link[i]}
               style={{
                 backgroundColor: '#398a5d'

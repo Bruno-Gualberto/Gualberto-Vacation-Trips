@@ -365,6 +365,10 @@ footer .footer_copyright {
     position:relative;
 }
 
+.location_wrapper iframe {
+  margin-bottom: -4px;
+}
+
 .location_tag {
     position: absolute;
     bottom: 0px;
